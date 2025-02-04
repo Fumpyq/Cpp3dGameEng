@@ -31,3 +31,4 @@
 *.out
 *.app
 /Resources/Images/Blender.png
+/x64/

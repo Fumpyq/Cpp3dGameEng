@@ -1,0 +1,22 @@
+# Blender 3.4.1 MTL File: 'None'
+# www.blender.org
+
+newmtl hw_body
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:/Users/malam/source/repos/3dEnginerec/3dEngine/Resources/Images/hoodwink_body_color_psd_67916807_RGB.png
+
+newmtl hw_head
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:/Users/malam/source/repos/3dEnginerec/3dEngine/Resources/Images/hoodwink_head_color_psd_4e84f665_RGB.tga
