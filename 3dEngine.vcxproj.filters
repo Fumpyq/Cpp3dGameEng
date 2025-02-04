@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Libaries">
+      <UniqueIdentifier>{235250ff-b402-4282-b4f5-0356aedb2bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libaries\ImGui">
+      <UniqueIdentifier>{c905909b-d6ee-4213-a474-9bcef4632303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ImGui">
+      <UniqueIdentifier>{c3454712-b2b8-46f3-8842-507d7d1d4f0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\GL\GLAD\src\glad.c">
+      <Filter>Libaries</Filter>
+    </ClCompile>
+    <ClCompile Include="Lirbarys\imGui\imgui_demo.cpp">
+      <Filter>Libaries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Lirbarys\imGui\imgui_draw.cpp">
+      <Filter>Libaries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Lirbarys\imGui\imgui_impl_glfw.cpp">
+      <Filter>Libaries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Lirbarys\imGui\imgui_impl_opengl3.cpp">
+      <Filter>Libaries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Lirbarys\imGui\imgui_tables.cpp">
+      <Filter>Libaries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Lirbarys\imGui\imgui_widgets.cpp">
+      <Filter>Libaries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Lirbarys\imGui\imgui.cpp">
+      <Filter>Libaries\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lirbarys\filesystem.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\imGui\imconfig.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\imGui\imgui.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\imGui\imgui_impl_glfw.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\imGui\imgui_impl_opengl3.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\imGui\imgui_impl_opengl3_loader.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\imGui\imgui_internal.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\imGui\imstb_rectpack.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\imGui\imstb_textedit.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\imGui\imstb_truetype.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="PRCMesh.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="glmPrecompiled.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\fmod.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\fmod.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\fmod_codec.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\fmod_common.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\fmod_dsp.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\fmod_dsp_effects.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\fmod_errors.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\fmod_output.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\phonon.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\phonon_interfaces.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Lirbarys\FMOD\phonon_version.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShaderNote.glsl" />
+  </ItemGroup>
+</Project>
